@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Page</title>
+
+    <!-- Bootstrap -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body style="background-image: url(../static/pics/congruent_outline.png)">
+
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Zac's Website</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown">Navigate <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About Me</a></li>
+          <li><a href="resume">Resume</a></li>
+        </ul>
+        </li>
+        <li><a href="about">About Me</a></li>
+        <li><a href="resume">Resume</a></li>
+      </ul>
+    </div>
+    </nav>
+
+    <h1 style="color:white">Zachary Morgan</h1>
+
+    <div class="jumbotron">
+      <h1>Hello Sweetwater!</h1>
+        <p>Explore these pages to learn a little bit about me</p>
+    </div>
+
+    <div class="container">
+      <h2 style="color:white">Skills shown here</h2>
+        <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+          </div>
+          <div id="collapseOne" class="accordion-body collapse">
+            <div class="accordion-inner">
+              <div class="well well-lg">This website was quickly developed by using Python and flask built from the ground up. The styling is done using Bootstrap. This was done in a simple text editor(Sublime). This mini project was quickly put together because my other web development work was with an internal web application at Smucker; it was done using ASP.NET in Microsoft Visual Studios. I really enjoy designing, but the function of the web is still interesting.
+              </div>
+            </div>
+          </div>
+          <button class="SeeMore2" data-toggle="collapse" href="#collapseOne">Show</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <h2 style="color:white">Outside web develpment(and still relevant)</h2>
+        <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+          </div>
+          <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner">
+              <div class="well well-lg">I have done low end programming such as Assembly language and C. My first language was C++, and it is still commonly used for my current classes(algorithms for example). I learned
+              Python on my own time, and it is my favorite due to the automation features and ease of use. I do various projects with tech such as, digging into the kext files to get my Wifi card to work on my mac, repairing phone screens, reviving old tech by making them small servers, and many other things since it is my job on campus.
+              </div>
+            </div>
+          </div>
+          <button class="SeeMore2" data-toggle="collapse" href="#collapseTwo">Show</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../static/js/bootstrap.min.js"></script>
+  </body>
+</html>
